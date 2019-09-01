@@ -24,16 +24,16 @@
 
 		<parameter name="user" type="text" required="true" groupName="authentication">
 			<label>Username</label>
-			<description>The Username to login at NibeIplink.</description>
+			<description>The Username to login at NibeUplink.</description>
 		</parameter>
 		<parameter name="password" type="text" required="true" groupName="authentication">
 			<label>Password</label>
 			<context>password</context>
-			<description>The Password to login at NibeIplink.</description>
+			<description>The Password to login at NibeUplink.</description>
 		</parameter>
 		<parameter name="nibeId" type="text" required="true" groupName="general">
 			<label>Nibe ID</label>
-			<description>The ID to identify the heat pump at NibeIplink.</description>
+			<description>The ID to identify the heat pump at NibeUplink.</description>
 		</parameter>
 		<parameter name="pollingInterval" type="integer" required="false" min="30" max="3600" unit="s"
 			groupName="connection">
